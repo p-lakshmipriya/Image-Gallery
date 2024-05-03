@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="lightbox.css" />
+  </head>
+  <body>
+    <header>
+      <div class="inner-header" id="home">
+        <div class="container-header">
+          <div class="main-header">
+            <div class="bars" id="open">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+                />
+              </svg>
+            </div>
+            <div class="logo">
+              <a href="#">Nature</a>
+            </div>
+            <nav class="list-items active" id="show">
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#image">Images</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="bg"></div>
+    <!-- navbar end -->
+    <!-- Gallerry start -->
+
+    <div class="head">
+      <h1>Image Gallery</h1>
+      <hr />
+    </div>
+    <div class="container" id="image">
+      <div class="gallery">
+        <a
+          href="images/dark tree.jpg"
+          data-lightbox="nature"
+          data-title="Dark Tree"
+        >
+          <img src="images/dark tree.jpg" />
+        </a>
+        <a
+          href="images/Forested-mountain.jpg"
+          data-lightbox="nature"
+          data-title="Forest Mountain"
+        >
+          <img src="images/Forested-mountain.jpg" />
+        </a>
+        <a
+          href="images/green tree.jpg"
+          data-lightbox="nature"
+          data-title="Green Tree"
+        >
+          <img src="images/green tree.jpg" />
+        </a>
+        <a
+          href="images/lake house.jpg"
+          data-lightbox="nature"
+          data-title="Lake House"
+        >
+          <img src="images/lake house.jpg" />
+        </a>
+        <a
+          href="images/Snow-mountain.jpg"
+          data-lightbox="nature"
+          data-title="Snow Mountain"
+        >
+          <img src="images/Snow-mountain.jpg" />
+        </a>
+        <a
+          href="images/green-grass.jpg"
+          data-lightbox="nature"
+          data-title="Green Grass"
+        >
+          <img src="images/green-grass.jpg" />
+        </a>
+        <a href="images/sunset.jpg" data-lightbox="nature" data-title="Sunset">
+          <img src="images//sunset.jpg" />
+        </a>
+        <a
+          href="images/waterfall.jpg"
+          data-lightbox="nature"
+          data-title="Waterfall"
+        >
+          <img src="images/waterfall.jpg" />
+        </a>
+        <a href="images/ocean.jpg" data-lightbox="nature" data-title="ocean">
+          <img src="images/ocean.jpg" />
+        </a>
+        <a
+          href="images/snow house.jpg"
+          data-lightbox="nature"
+          data-title="Snow House"
+        >
+          <img src="images/snow house.jpg" />
+        </a>
+
+        <a href="images/desert.jpg" data-lightbox="nature" data-title="Desert">
+          <img src="images/desert.jpg" />
+        </a>
+        <a
+          href="images/road.jpg"
+          data-lightbox="nature"
+          data-title="Road Curve"
+        >
+          <img src="images/road.jpg" />
+        </a>
+
+        <!-- <img src="images/sunrise.jpg" alt="" /> -->
+      </div>
+    </div>
+
+    <!-- Gallerry end -->
+    <!-- contact start -->
+    <div class="contact" id="contact">
+      <div class="content"><h1>Nature</h1></div>
+      <div class="content-p">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a>
+        <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+        <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+      </div>
+    </div>
+    <!-- contact end -->
+    <!-- footer start -->
+    <div class="footer">
+      <p>Created <span>Web Designer</span></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>
